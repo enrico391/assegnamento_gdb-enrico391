@@ -38,7 +38,7 @@ void inserisci(int nuovo_dato, int num_dati_ord, int *vett)
 			return;
 		}
 	}
-	// se la funziona non è gia conclusa significa che il dato non è minore di quelli già presenti
+	// se la funzione non è gia conclusa significa che il dato non è minore di quelli già presenti
 	// quindi lo mettiamo in fondo
 	vett[num_dati_ord] = nuovo_dato;
 }
